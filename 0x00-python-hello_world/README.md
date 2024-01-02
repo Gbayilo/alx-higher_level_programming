@@ -1,0 +1,2 @@
+# 0x00-python-hello_world
+Welcome to the directory dedicated to tasks covering introductory concepts in learning Python. Here, you will find a series of tasks designed to help grasp the fundamental concepts of Python programming. Each task is carefully crafted to provide a solid foundation for beginners embarking on their Python learning journey.
