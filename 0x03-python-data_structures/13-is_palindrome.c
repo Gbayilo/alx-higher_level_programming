@@ -33,7 +33,7 @@ int is_palindrome(listint_t **head)
 	prev->next = NULL;
 
 	reverse(&other_half);
-	result = palindrome_helper(*head, other_half);
+	result = palindrome_help(*head, other_half);
 	reverse(&other_half);
 
 	if (mid_node != NULL)
