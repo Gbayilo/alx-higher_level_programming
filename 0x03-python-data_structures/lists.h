@@ -24,5 +24,7 @@ void free_listint(listint_t *head);
 
 int is_palindrome(listint_t **head);
 
+int palindrome_help(listint_t *list_1, listint_t *list_2);
+void reverse(listint_t **list);
 
 #endif
