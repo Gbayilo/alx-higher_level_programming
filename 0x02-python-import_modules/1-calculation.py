@@ -16,4 +16,3 @@ if __name__ == "__main__":
 
     div_result = calculator_1.div(a, b)
     print('{:d} / {:d} = {:d}'.format(a, b, div_result))
-    
