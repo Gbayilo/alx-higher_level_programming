@@ -2,6 +2,7 @@
 if __name__ == "__main__":
     from add_0 import add
 
-    a = 1
-    b = 2
-    print('{:d} + {:d} = {:d}'.format(a, b, add(a, b)))
+a = 1
+b = 2
+result = add(a, b)
+print(f"{a:d} + {b:d} = {result:d}")
