@@ -1,8 +1,6 @@
 #!/usr/bin/python3
-if __name__ == "__main__":
-    import sys
-    result = 0
-    for arg in sys.argv:
-        if arg != sys.argv[0]:
-            result += int(arg)
-    print(result)
+if __name__ == '__main__':
+    from sys import argv
+
+    new_argv = [int(x) for x in argv[1:]]
+    print(sum(new_argv))
