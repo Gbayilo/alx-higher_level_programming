@@ -20,8 +20,8 @@ class Rectangle:
             TypeError: if size is not integer
             ValueError: if size is less than zero
         """
-        self.height = height
         self.width = width
+        self.height = height
         Rectangle.number_of_instances += 1
 
     @property
@@ -62,7 +62,7 @@ class Rectangle:
             return (0)
         return ((self.__width * 2) + (self.__height * 2))
 
-    def __str__(self) -> str:
+    def __str__(self):
         """presents a diagram of the rectangle defined for an object"""
         if self.__width == 0 or self.__height == 0:
             return ("")
