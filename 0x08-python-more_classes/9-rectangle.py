@@ -89,7 +89,7 @@ class Rectangle:
                 try:
                     rectangle_str += str(self.print_symbol)
                 except Exception:
-                    rectangle += type(self).print_symbol
+                    rectangle_str += type(self).print_symbol
             if y != self.height - 1:
                 rectangle_str += '\n'
         return rectangle_str
