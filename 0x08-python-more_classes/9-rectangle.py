@@ -79,9 +79,8 @@ class Rectangle:
 
     def __str__(self) -> str:
         """presents a diagram of the rectangle defined for an object"""
-        rectangle_str = ''
         if self.__height == 0 or self.__width == 0:
-            return rectangle_str
+            return ""
         rectangle = ""
         for column in range(self.__height):
             for row in range(self.__width):
