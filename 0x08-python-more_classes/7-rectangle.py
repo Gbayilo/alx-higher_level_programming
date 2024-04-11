@@ -71,7 +71,7 @@ class Rectangle:
             return rectangle_str
         for y in range(self.height):
             for x in range(self.width):
-                rectangle_str += '#'
+                rectangle_str += str(self.print_symbol)
             if y != self.height - 1:
                 rectangle_str += '\n'
         return rectangle_str
