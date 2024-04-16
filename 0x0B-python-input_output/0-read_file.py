@@ -1,4 +1,6 @@
 #!/usr/bin/bash
+"""Read text file and prints to stdout"""
+
 
 def read_file(filename=""):
     """Reads a text file with UT8 encoding and prints to stdout."""
